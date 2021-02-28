@@ -3,131 +3,61 @@ html {
 }
 
 body {
-    margin: 0;
-    padding-top: 800px;
     text-align: center;
-    margin-top: 30px;
-}
-
-.profile {
-    margin-top: 100px;
-    width: 200px;
-    height: 275px;
-    margin-bottom: 50px;
-    border-radius: 50%;
 }
 
 #welcome {
-    position: absolute;
-    height: 800px;
-    color: white;
-    left: 0;
-    top: 0;
+    color: #FFFFFF;
     bottom: 0;
-    right: 0;
-    opacity: 0.83;
-    background: linear-gradient(to bottom left, #66ff66 0%, #6699ff 100%);
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
-    height: 100%;
     width: 100%;
+    height: 100%;
     z-index: 9;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
 }
 
 h1 {
     font-size: 40px;
     font-family: sans-serif;
-    font-weight: bold;
-}
-
-#name {
-    font-size: 50px;
-    font-family: 'Noto Sans KR', sans-serif;
-    line-height: 1.2;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-#bio {
-    padding: 50px;
-    text-align: center;
+    font-weight: 300;
 }
 
 .line {
     height: 6px;
-    background-color: black;
+    background-color: #000;
     width: 70px;
     margin: 8px auto;
-}
-
-p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.5;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.menu {
-    position: fixed;
-    background: white;
-    width: 100%;
-    margin-top: 0px;
-    top: 0;
-    z-index: 10;
-}
-
-.menu a {
-    text-shadow: none;
-    text-decoration: none;
-}
-
-.links {
-    display: inline;
-    padding-left: 33px;
-    padding-right: 25px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
-}
-
-.links:hover {
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-.article:hover {
-    color: green;
-}
-
-.article {
-    color: black;
-    font-size: 25px;
-    font-family: sans-serif;
-}
-
-a {
-    text-decoration: underline;
-    color: darkorange;
-    text-shadow: 3px 3px gainsboro;
 }
 
 #contact iframe {
     width: 100%;
 }
 
-.contact1 h3 {
+.contact_1 h3 {
     display: inline;
 }
 
-.contact1 a {
-    text-decoration: none;
+.contact_1 a {
     text-shadow: none;
-    color: white;
 }
 
-#contact {
-    background: firebrick;
+
+#videos iframe {
+    width: 80%;
+}
+
+
+input {
+    background: grey;
+}
+
+#www {
+    width: 30px;
+    height: 30px;
 }
